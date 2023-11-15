@@ -46,7 +46,7 @@
         {
             "title" : "E-Mail, Surat Elektronik",
             "description" : "Email adalah Identitas internet yang wajib kamu jaga kepemilikannya, minimal memiliki 2 akun email pada beda layanan, seperti Gmail, Outlook, dan Yahoo.<br>dan buat keduanya untuk saling menjadi tempat reset password, lalu hapus email konfirmasinya, agar jika email diambil alih, tidak diketahui email lainnya.",
-            "image" : "images/email.jpg"
+            "image" : "images/email.png"
         }
     ],
     "penipuan" : [
