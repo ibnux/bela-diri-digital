@@ -1,0 +1,13 @@
+{
+    "main_menu" :[
+        {
+            "sub_menu" : "tutorial",
+            "title" : "Tutorial",
+            "subtitle" : "Tutorial menggunakan aplikasi"
+        }
+    ],
+    "tutorial" : [
+
+    ],
+    "identitas" : [ ]
+}
