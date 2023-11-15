@@ -7,17 +7,20 @@
         {
             "sub_menu" : "tutorial",
             "title" : "Tutorial",
-            "subtitle" : "Tutorial menggunakan aplikasi"
+            "subtitle" : "Tutorial menggunakan aplikasi",
+            "image" : "images/BAPAK.png"
         },
         {
             "sub_menu" : "identitas",
             "title" : "Identitas",
-            "subtitle" : "Jaga Identitas Diri"
+            "subtitle" : "Jaga Identitas Diri",
+            "image" : "images/BAPAK.png"
         },
         {
             "sub_menu" : "penipuan",
             "title" : "Penipuan",
-            "subtitle" : "Bentuk penipuan digital"
+            "subtitle" : "Bentuk penipuan digital",
+            "image" : "images/BAPAK.png"
         }
     ],
     "tutorial" : [
