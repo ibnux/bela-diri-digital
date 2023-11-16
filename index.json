@@ -63,7 +63,7 @@
         },
         {
             "title" : "Buka Berkas",
-            "description" : "Saat membuka berkas yang mencurigakan, pilih Diperiksa BAPAK dulu, agar berkas yakin bukan suatu aplikasi yang berbahaya",
+            "description" : "Saat membuka berkas yang mencurigakan, pilih BAPAK Virus, untuk diperiksa terlebih dahulu, agar berkas yakin bukan suatu aplikasi yang berbahaya",
             "image" : "images/bukadengan.jpg",
             "intent" : ""
         }
