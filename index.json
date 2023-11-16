@@ -8,55 +8,98 @@
             "sub_menu" : "tutorial",
             "title" : "Tutorial",
             "subtitle" : "Tutorial menggunakan aplikasi",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
         },
         {
             "sub_menu" : "identitas",
             "title" : "Identitas",
             "subtitle" : "Jaga Identitas Diri",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
         },
         {
             "sub_menu" : "penipuan",
             "title" : "Penipuan",
             "subtitle" : "Bentuk penipuan digital",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
+            "sub_menu" : "pengaturan",
+            "title" : "Pengaturan Penting",
+            "subtitle" : "Periksa pengaturan penting di ponsel",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
+            "sub_menu" : "",
+            "title" : "Trakteer",
+            "subtitle" : "Trakteer ibnux ngopi",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;android.intent.action.VIEW;https://trakteer.id/ibnux/tip"
         }
     ],
     "tutorial" : [
         {
             "title" : "Apa guna aplikasi ini?",
             "description" : "Aplikasi ini untuk memeriksa apakah berkas/file yang diterima melalui aplikasi perpesanan seperti WhatsApp atau Telegram atau lainnya, berisikan aplikasi berbahaya.",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
         },
         {
             "title" : "Buka Berkas",
             "description" : "Saat membuka berkas yang mencurigakan, pilih Diperiksa BAPAK dulu, agar berkas yakin bukan suatu aplikasi yang berbahaya",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
         }
     ],
     "identitas" : [
         {
             "title" : "eKTP",
             "description" : "Sebagai Identitas kependudukan, Data KTP wajib dijaga, dan hanya diberikan kepada yang berkepentingan",
-            "image" : "images/ktp.png"
+            "image" : "images/ktp.png",
+            "intent" : ""
         },
         {
             "title" : "Nomor Telepon",
             "description" : "Nomor Telepon merupakan salah satu identitas kamu yang penting, harus dijaga kepemilikannya, Terutama jika terhubung pada bank dan akun penting lainnya.<br>Jangan sampai hangus karena lupa isi pulsa atau lupa bayar tagihannya.",
-            "image" : "images/simcard.png"
+            "image" : "images/simcard.png",
+            "intent" : ""
         },
         {
             "title" : "E-Mail, Surat Elektronik",
             "description" : "Email adalah Identitas internet yang wajib kamu jaga kepemilikannya, minimal memiliki 2 akun email pada beda layanan, seperti Gmail, Outlook, dan Yahoo.<br>dan buat keduanya untuk saling menjadi tempat reset password, lalu hapus email konfirmasinya, agar jika email diambil alih, tidak diketahui email lainnya.",
-            "image" : "images/email.png"
+            "image" : "images/email.png",
+            "intent" : ""
         }
     ],
     "penipuan" : [
         {
             "title" : "Pengiriman APK terselubung",
             "description" : "Penipu mencoba mengirimkan aplikasi dengan bentuk lain seperti PDF, JPG, BMP, GIF atau lainnya",
-            "image" : "images/BAPAK.png"
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        }
+    ],
+    "pengaturan" : [
+        {
+            "title" : "Periksa Pengaturan Install Aplikasi",
+            "description" : "Cek apakah dibolehkan install aplikasi diluar Toko Aplikasi tidak dikenal",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.MANAGE_UNKNOWN_APP_SOURCES"
+        },
+        {
+            "title" : "Periksa Pengaturan Keamanan",
+            "description" : "Periksa bagian Perangkat Admin (Device Admin) apakah ada aplikasi tidak dikenal yang aktif",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.SECURITY_SETTINGS"
+        },
+        {
+            "title" : "Periksa pengaturan aplikasi Terinstall",
+            "description" : "Cek apakah ada aplikasi yang tidak dikenal terinstall",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS"
         }
     ]
 }
