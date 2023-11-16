@@ -102,6 +102,24 @@
             "description" : "Merupakan ekstensi berkas (aplikasi.apk) aplikasi yang dipasang di Android, dimana jika di Komputer Windows menggunakan ekstensi EXE (email.exe)",
             "image" : "images/BAPAK.png",
             "intent" : ""
+        },
+        {
+            "title" : "Lapor Polisi Siber",
+            "description" : "Kamu bisa melaporkan penipuan ke Polisi Siber, dan memeriksa nomor telepon penipu",
+            "image" : "images/siberpolri.png",
+            "intent" : "intent;android.intent.action.VIEW;https://patrolisiber.id/"
+        },
+        {
+            "title" : "Cek dan Lapor Rekening Penipu",
+            "description" : "Kamu bisa periksa dan melaporkan nomor rekening penipu",
+            "image" : "images/cekrekening.png",
+            "intent" : "intent;android.intent.action.VIEW;https://cekrekening.id/home"
+        },
+        {
+            "title" : "Cek dan Lapor Nomor Telepon Penipu",
+            "description" : "Kamu bisa periksa dan melaporkan nomor telepon penipu",
+            "image" : "images/aduannomor.png",
+            "intent" : "intent;android.intent.action.VIEW;https://aduannomor.id/home"
         }
     ],
     "penanganan" : [
@@ -132,7 +150,7 @@
         {
             "title" : "Lapor Polisi",
             "description" : "Jika kamu menjadi korban dan mengalami kerugian, segera lapor ke Polisi",
-            "image" : "images/BAPAK.png",
+            "image" : "images/siberpolri.png",
             "intent" : "intent;android.intent.action.VIEW;https://patrolisiber.id/"
         }
     ],
