@@ -26,6 +26,20 @@
             "intent" : ""
         },
         {
+            "sub_menu" : "informasi",
+            "title" : "Pengetahuan Dasar",
+            "subtitle" : "Pengetahuan dasar yang perlu diketahui",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
+            "sub_menu" : "penanganan",
+            "title" : "Penanganan",
+            "subtitle" : "Penanganan jika menjadi korban",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
             "sub_menu" : "pengaturan",
             "title" : "Pengaturan Penting",
             "subtitle" : "Periksa pengaturan penting di ponsel",
@@ -82,10 +96,50 @@
             "intent" : ""
         }
     ],
+    "informasi" : [
+        {
+            "title" : "APK - Android Package Kit",
+            "description" : "Merupakan ekstensi berkas (aplikasi.apk) aplikasi yang dipasang di Android, dimana jika di Komputer Windows menggunakan ekstensi EXE (email.exe)",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        }
+    ],
+    "penanganan" : [
+        {
+            "title" : "Aktifkan Mode Pesawat",
+            "description" : "Dengan Mengaktifkan Mode Pesawat (Flight Mode) maka tidak ada data yang akan masuk ataupun keluar",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.ACTION_AIRPLANE_MODE_SETTINGS"
+        },
+        {
+            "title" : "Cari aplikasi",
+            "description" : "Cari aplikasi terbaru yang terpasang",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS"
+        },
+        {
+            "title" : "Periksa Ijin SMS",
+            "description" : "Buka Manajer Ijin (Permissions Manager), cari bagian SMS, lalu periksa apakah ada aplikasi tidak dikenal",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;null;android.settings.SECURITY_SETTINGS"
+        },
+        {
+            "title" : "Jika WhatsApp diambil alih",
+            "description" : "Jika WhatsApp telah diambil alih pelaku, segera masuk WA lagi dan rekues OTP, sampai OTP diterima.<br>Jika terdapat Verifikasi 2 langkah aktif, lakukan permintaan reset verifikasi 2 langkah, sayangnya proses ini butuh waktu 7 hari.<br>Jika perlu tiap hari lakukan permintaan OTP dan reset.",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
+            "title" : "Lapor Polisi",
+            "description" : "Jika kamu menjadi korban dan mengalami kerugian, segera lapor ke Polisi",
+            "image" : "images/BAPAK.png",
+            "intent" : "intent;android.intent.action.VIEW;https://patrolisiber.id/"
+        }
+    ],
     "pengaturan" : [
         {
             "title" : "Periksa Pengaturan Install Aplikasi",
-            "description" : "Cek apakah dibolehkan install aplikasi diluar Toko Aplikasi tidak dikenal",
+            "description" : "Cek apakah dibolehkan pasang aplikasi diluar Toko Aplikasi yang tidak dikenal",
             "image" : "images/BAPAK.png",
             "intent" : "intent;null;android.settings.MANAGE_UNKNOWN_APP_SOURCES"
         },
@@ -96,8 +150,8 @@
             "intent" : "intent;null;android.settings.SECURITY_SETTINGS"
         },
         {
-            "title" : "Periksa pengaturan aplikasi Terinstall",
-            "description" : "Cek apakah ada aplikasi yang tidak dikenal terinstall",
+            "title" : "Periksa pengaturan aplikasi terpasang",
+            "description" : "Cek apakah ada aplikasi yang tidak dikenal terpasang",
             "image" : "images/BAPAK.png",
             "intent" : "intent;null;android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS"
         }
