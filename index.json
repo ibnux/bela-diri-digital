@@ -127,7 +127,7 @@
             "title" : "Aktifkan Mode Pesawat",
             "description" : "Dengan Mengaktifkan Mode Pesawat (Flight Mode) maka tidak ada data yang akan masuk ataupun keluar",
             "image" : "images/BAPAK.png",
-            "intent" : "intent;null;android.settings.ACTION_AIRPLANE_MODE_SETTINGS"
+            "intent" : "intent;null;android.settings.WIRELESS_SETTINGS"
         },
         {
             "title" : "Cari aplikasi",
