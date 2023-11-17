@@ -8,42 +8,42 @@
             "sub_menu" : "tutorial",
             "title" : "Tutorial",
             "subtitle" : "Tutorial menggunakan aplikasi",
-            "image" : "images/BAPAK.png",
+            "image" : "images/tutorial.png",
             "intent" : ""
         },
         {
             "sub_menu" : "identitas",
             "title" : "Identitas",
             "subtitle" : "Jaga Identitas Diri",
-            "image" : "images/BAPAK.png",
+            "image" : "images/identitas.png",
             "intent" : ""
         },
         {
             "sub_menu" : "penipuan",
             "title" : "Penipuan",
             "subtitle" : "Bentuk penipuan digital",
-            "image" : "images/BAPAK.png",
+            "image" : "images/penipuan.png",
             "intent" : ""
         },
         {
             "sub_menu" : "informasi",
             "title" : "Pengetahuan Dasar",
             "subtitle" : "Pengetahuan dasar yang perlu diketahui",
-            "image" : "images/BAPAK.png",
+            "image" : "images/pengetahuan.png",
             "intent" : ""
         },
         {
             "sub_menu" : "penanganan",
-            "title" : "Penanganan",
-            "subtitle" : "Penanganan jika menjadi korban",
-            "image" : "images/BAPAK.png",
+            "title" : "Pertolongan",
+            "subtitle" : "Pertolongan pertama jika menjadi korban",
+            "image" : "images/pertolongan.png",
             "intent" : ""
         },
         {
             "sub_menu" : "pengaturan",
             "title" : "Pengaturan Penting",
             "subtitle" : "Periksa pengaturan penting di ponsel",
-            "image" : "images/BAPAK.png",
+            "image" : "images/pengaturan.png",
             "intent" : ""
         },
         {
