@@ -19,6 +19,13 @@
             "intent" : ""
         },
         {
+            "sub_menu" : "keamanan",
+            "title" : "Keamanan Digital",
+            "subtitle" : "Amankan akun digital anda",
+            "image" : "images/keamanan.png",
+            "intent" : ""
+        },
+        {
             "sub_menu" : "informasi",
             "title" : "Pengetahuan Dasar",
             "subtitle" : "Pengetahuan dasar yang perlu diketahui",
@@ -86,6 +93,26 @@
             "description" : "Email adalah Identitas internet yang wajib kamu jaga kepemilikannya, minimal memiliki 2 akun email pada beda layanan, seperti Gmail, Outlook, dan Yahoo.<br>dan buat keduanya untuk saling menjadi tempat reset password, lalu hapus email konfirmasinya, agar jika email diambil alih, tidak diketahui email lainnya.",
             "image" : "images/email.png",
             "intent" : ""
+        }
+    ],
+    "keamanan" : [
+        {
+            "title" : "Aktifkan Verifikasi 2 langkah (2FA)",
+            "description" : "Verifikasi 2 langkah atau <i>2 Factor Authentication</i> (2FA) adalah layanan yang wajib diaktifkan, selain password maka akun akan meminta PIN, ada yang berbentuk PIN biasa, ada yang menggunakan <i>One Time Password (OTP)</i> atau Kata Sandi Sekali Pakai.<br>Aktifkan Verifikasi 2 langkah pada akun Whatsapp, Telegram, Instagram, Facebook, Email, dll yang memiliki Fitur tersebut",
+            "image" : "images/2fa.png",
+            "intent" : ""
+        },
+        {
+            "title" : "Aplikasi 2FA",
+            "description" : "Aplikasi yang biasa digunakan adalah Google Authenticator, Authy, dan Microsoft Authenticator. Biasanya saat membuat 2FA akan diberikan <i>Recovery Code</i> / Kode Pemulihan, simpan kode ini di tempat aman, ada baiknya dicetak dan disimpan di rumah atau dompet. karena jika 2FA hilang, hanya bisa menggunakan Kode Pemulihan ini untuk menghapus 2FA, atau menghubungi penyedia layanan dan akan banyak proses Verifikasi diri. 1 QRCode 2FA bisa digunakan untuk beberapa aplikasi, sehingga untuk aplikasi seperti Instagram yang dikelola beberapa orang, semua pengelola bisa Scan QRCode tersebut",
+            "image" : "images/2fa_app.jpg",
+            "intent" : "intent;android.intent.action.VIEW;https://play.google.com/store/search?q=dual+factor&c=apps"
+        },
+        {
+            "title" : "2FA PIN",
+            "description" : "Aplikasi yang 2FAnya menggunakan PIN biasanya yang menggunakan Kode OTP SMS seperti Whatsapp, Telegram, dan Aplikasi Dompet Digital seperti Gopay, OVO, Dana dan lainnya.",
+            "image" : "images/2fa.jpg",
+            "intent" : "intent;android.intent.action.VIEW;https://play.google.com/store/search?q=dual+factor&c=apps"
         }
     ],
     "penipuan" : [
