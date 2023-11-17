@@ -36,7 +36,7 @@
             "sub_menu" : "penanganan",
             "title" : "Pertolongan",
             "subtitle" : "Pertolongan pertama jika menjadi korban",
-            "image" : "images/pertolongan.png",
+            "image" : "images/pertolongan.png?v1",
             "intent" : ""
         },
         {
