@@ -92,7 +92,7 @@
         {
             "title" : "Pengiriman APK terselubung",
             "description" : "Penipu mencoba mengirimkan aplikasi dengan bentuk lain seperti PDF, JPG, BMP, GIF atau lainnya",
-            "image" : "images/BAPAK.png",
+            "image" : "images/apk_penipu.png",
             "intent" : ""
         }
     ],
