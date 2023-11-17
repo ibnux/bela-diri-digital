@@ -112,7 +112,7 @@
             "title" : "2FA PIN",
             "description" : "Aplikasi yang 2FAnya menggunakan PIN biasanya yang menggunakan Kode OTP SMS seperti Whatsapp, Telegram, dan Aplikasi Dompet Digital seperti Gopay, OVO, Dana dan lainnya.",
             "image" : "images/2fa.jpg",
-            "intent" : "intent;android.intent.action.VIEW;https://play.google.com/store/search?q=dual+factor&c=apps"
+            "intent" : ""
         }
     ],
     "penipuan" : [
