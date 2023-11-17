@@ -19,17 +19,17 @@
             "intent" : ""
         },
         {
-            "sub_menu" : "penipuan",
-            "title" : "Penipuan",
-            "subtitle" : "Bentuk penipuan digital",
-            "image" : "images/penipuan.png",
-            "intent" : ""
-        },
-        {
             "sub_menu" : "informasi",
             "title" : "Pengetahuan Dasar",
             "subtitle" : "Pengetahuan dasar yang perlu diketahui",
             "image" : "images/pengetahuan.png",
+            "intent" : ""
+        },
+        {
+            "sub_menu" : "penipuan",
+            "title" : "Penipuan",
+            "subtitle" : "Bentuk penipuan digital",
+            "image" : "images/penipuan.png",
             "intent" : ""
         },
         {
@@ -94,12 +94,36 @@
             "description" : "Penipu mencoba mengirimkan aplikasi dengan bentuk lain seperti PDF, JPG, BMP, GIF atau lainnya",
             "image" : "images/apk_penipu.png",
             "intent" : ""
+        },
+        {
+            "title" : "Web palsu DANA",
+            "description" : "Web Palsu DANA biasanya iming iming DANA Kaget, web ini akan mencuri isi uang di DANA",
+            "image" : "images/dana.png",
+            "intent" : ""
+        },
+        {
+            "title" : "Web palsu BNI",
+            "description" : "Web Palsu BNI biasanya dengan mengaku perubahan tarif biaya transfer, dan akan menguras isi rekening",
+            "image" : "images/dana.png",
+            "intent" : ""
+        },
+        {
+            "title" : "Web palsu POS Indonesia",
+            "description" : "Web Palsu ini bisanya menyebarkan info jika paket gagal dikirim, dan harus diperbaiki alamatnya, atau ada biaya yang kurang, tujuannya untuk mengambil data kartu kredit untuk dikuras saldonya. Selain itu kadang mengaku dari kurir lain seperti JNE atau lainnya",
+            "image" : "images/dana.png",
+            "intent" : ""
         }
     ],
     "informasi" : [
         {
             "title" : "APK - Android Package Kit",
             "description" : "Merupakan ekstensi berkas (aplikasi.apk) aplikasi yang dipasang di Android, dimana jika di Komputer Windows menggunakan ekstensi EXE (email.exe)",
+            "image" : "images/BAPAK.png",
+            "intent" : ""
+        },
+        {
+            "title" : "Wesite palsu alias Phising",
+            "description" : "Adalah website yang menyerupai layanan Web asli untuk mencuri identitas korban agar bisa mengambil alih uang di rekening bank atau dompet digital atau kartu kredit atau kartu prabayar",
             "image" : "images/BAPAK.png",
             "intent" : ""
         },
