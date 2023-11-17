@@ -131,13 +131,13 @@
         {
             "title" : "Web palsu BNI",
             "description" : "Web Palsu BNI biasanya dengan mengaku perubahan tarif biaya transfer, dan akan menguras isi rekening",
-            "image" : "images/dana.png",
+            "image" : "images/bni.png",
             "intent" : ""
         },
         {
             "title" : "Web palsu POS Indonesia",
             "description" : "Web Palsu ini bisanya menyebarkan info jika paket gagal dikirim, dan harus diperbaiki alamatnya, atau ada biaya yang kurang, tujuannya untuk mengambil data kartu kredit untuk dikuras saldonya. Selain itu kadang mengaku dari kurir lain seperti JNE atau lainnya",
-            "image" : "images/dana.png",
+            "image" : "images/posindonesia.png",
             "intent" : ""
         }
     ],
