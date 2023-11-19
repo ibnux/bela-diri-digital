@@ -58,7 +58,7 @@
             "title" : "Trakteer",
             "subtitle" : "Trakteer ibnux ngopi",
             "image" : "images/BAPAK.png",
-            "intent" : "intent;android.intent.action.VIEW;https://trakteer.id/ibnux/tip"
+            "intent" : "intent;android.intent.action.VIEW;https://trakteer.id/ibnux/"
         }
     ],
     "tutorial" : [
